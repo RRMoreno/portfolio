@@ -1,0 +1,113 @@
+a {
+    color: ghostwhite;
+}
+
+.no-gutters {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.navegacion {
+    background-color: #1b1e21;
+
+}
+
+.banner {
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+    background-image: url("../assets/img/banner.jpg");
+    background-size: cover
+}
+
+.banner .bannerHeading {
+    font-size: 3.5rem;
+    line-height: 2.75rem;
+}
+
+
+.banner .bannerSubheading {
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.banner .bannerAvatar {
+    width: 15rem;
+    border-radius: 15rem;
+}
+
+.divide {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    width: 20rem;
+    justify-content: space-around;
+    align-items: center
+}
+
+.divide .dividelineaLeft {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #f8fbfd;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.divide .dividelineaRight {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #f8fbfd;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.card {
+    margin-top: 2rem;
+}
+
+.cardsspace {
+    justify-content: space-evenly;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-img-top {
+    width: 286px;
+    height: 215.05px;
+}
+
+.section1 {
+    padding-top: 3rem;
+    justify-content: space-between;
+}
+
+.dividesections {
+    padding-top: 2rem;
+    display: flex;
+    width: 20rem;
+    justify-content: space-around;
+    align-items: center
+}
+
+.dividesections .dividelineaLeft {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: black;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.dividesections .dividelineaRight {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: black;
+    border-radius: 1rem;
+    display: flex;
+}
