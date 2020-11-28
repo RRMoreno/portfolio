@@ -17,10 +17,12 @@
 </head>
 <body class="no-gutters">
 <nav class="navbar navbar-expand-lg navegacion text-uppercase fixed-top" id="mainNav">
-    <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">MyPortfolio</a>
+    <div class="container" id="pagetop">
+        <a class="navbar-brand" href="#pagetop">MyPortfolio</a>
         <button aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" data-target="#navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                data-target="#navbarResponsive"
                 data-toggle="collapse" type="button">
             Menu
             <i aria-hidden="true" class="fa fa-bars"></i>
@@ -30,7 +32,7 @@
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                                                      href="#portfolio">Portfolio</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                                                     href="#about">Perfil</a></li>
+                                                     href="#perfil">Perfil</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                                                      href="#contact">Contacto</a></li>
             </ul>
@@ -56,7 +58,7 @@
     </div>
 </header>
 
-<section class="container page-section section1" id="portfolio">
+<section class="container page-section section" id="portfolio">
     <div class="container d-flex align-items-center flex-column">
         <h2>PORTFOLIO</h2>
         <div class="dividesections row">
@@ -80,7 +82,7 @@
             <div class="card-body">
                 <h5 class="card-title">Villa Canina</h5>
                 <p class="card-text"></p>
-                <a class="btn btn-primary" href="https://rrmoreno.github.io/ProyectoFinal/index.html">Go </a>
+                <a class="btn btn-primary " href="https://rrmoreno.github.io/ProyectoFinal/index.html">Go </a>
             </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -119,7 +121,7 @@
     </div>
 
 </section>
-<section class="section2">
+<section class="container page-section section">
     <div class="container d-flex align-items-center flex-column">
         <h2>PERFIL</h2>
         <div class="dividesections row">
@@ -172,7 +174,8 @@
                             <p class="description">
                                 Elaboración de Manuales de Usuario y Planes de
                                 Capacitación. Impartir capacitaciones de los sistemas y su uso a otros
-                                trabajadores. Soporte de primer nivel a dichas aplicaciones. Instalación de PC y sus periféricos y uso de sistemas
+                                trabajadores. Soporte de primer nivel a dichas aplicaciones. Instalación de PC y sus
+                                periféricos y uso de sistemas
                                 operativos Linux y Windows
 
                             </p>
@@ -180,6 +183,86 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+<section class="container page-section section">
+    <div class="container d-flex align-items-center flex-column">
+        <h2>Contact</h2>
+        <div class="dividesections row">
+            <div class="dividelineaLeft"></div>
+            <div><i aria-hidden="true" class="fa fa-star fa-2x"></i></div>
+            <div class="dividelineaRight"></div>
+        </div>
+    </div>
+    <div class="row sectionContact">
+        <div class="col-md-6">
+            <div class="row ">
+                <div class="form-group col-md-6">
+                    <label for="name1"><i aria-hidden="true" class="fa fa-user fa-lg"></i>Nombre(s)</label>
+                    <input class="form-control" id="name1" placeholder="Nombre" required type="text">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="apellido"><i aria-hidden="true" class="fa fa-user fa-lg"></i>Apellidos</label>
+                    <input class="form-control" id="apellido" placeholder="Apellido" type="text">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mail"><i aria-hidden="true" class="fa fa-envelope fa-lg"></i>Correo</label>
+                <input class="form-control" id="mail" placeholder="ejemplo@correo.uy" required type="email">
+            </div>
+            <div class="form-group">
+                <label for="phone"><i aria-hidden="true"
+                                      class="fa fa-phone-square fa-lg"></i>Teléfono</label>
+                <input class="form-control" id="phone" placeholder="099 999999" required type="tel">
+                <!--solo puede admitir numeros-->
+            </div>
+            <div>
+                <label for="comments2"><i aria-hidden="true" class="fa fa-pencil-square-o fa-lg"></i>Comentarios</label>
+                <textarea class="form-control comments" id="comments2" placeholder="Escriba sus comentarios aqui"
+                          type="number"></textarea>
+            </div>
+            <button class="btn btn-outline-primary" data-target="#enviarModal" data-toggle="modal" type="submit">
+                Enviar
+            </button>
+
+            <!-- ventana que aparece hasta que los campos requeridos estan llenos correctamente,--- esto puede cambiar-->
+            <div aria-hidden="true" class="modal fade" id="enviarModal" role="dialog" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">ERROR</h5>
+                            <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Por favor verifque que los campos requeridos esten llenos
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-outline-primary" data-dismiss="modal" type="button">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>San Francisco, CA 94126, USA</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+ 01 234 567 89</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>contact@mdbootstrap.com</p>
+                </li>
+            </ul>
         </div>
     </div>
 </section>

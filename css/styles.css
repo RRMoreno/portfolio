@@ -64,7 +64,7 @@ a {
   width: 286px;
   height: 215.05px; }
 
-.section1 {
+.section {
   padding-top: 3rem;
   justify-content: space-between; }
 
@@ -91,9 +91,9 @@ a {
   border-radius: 1rem;
   display: flex; }
 
-.section2 {
-  padding-top: 3rem;
-  justify-content: space-between; }
+.btn-primary {
+  background-color: #d14e16 !important;
+  border-color: #d14e16 !important; }
 
 .main-timeline {
   font-family: 'Roboto', sans-serif;
@@ -296,3 +296,13 @@ a {
 @media screen and (max-width: 576px) {
   .main-timeline .title {
     font-size: 18px; } }
+
+.sectionContact {
+  padding-top: 2rem; }
+
+label i {
+  color: #d2723f;
+  margin-right: 5px; }
+
+.bg-primary {
+  background-color: #212529 !important; }
