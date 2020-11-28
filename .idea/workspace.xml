@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="214c32be-bd2d-45c1-909b-aa8038b6871b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -74,7 +92,7 @@
       <workItem from="1604961725875" duration="3870000" />
       <workItem from="1605096786073" duration="4610000" />
       <workItem from="1606075921399" duration="9611000" />
-      <workItem from="1606519930180" duration="1242000" />
+      <workItem from="1606519930180" duration="2386000" />
     </task>
     <task id="LOCAL-00001" summary="wip">
       <created>1606076121877</created>
@@ -104,17 +122,36 @@
       <option name="project" value="LOCAL" />
       <updated>1606085862456</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="agregado section: perfil">
+      <created>1606521771492</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606521771492</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wip" />
     <MESSAGE value="fix for deployment" />
     <MESSAGE value="added section2 &quot;perfil&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="added section2 &quot;perfil&quot;" />
+    <MESSAGE value="agregado section: perfil" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregado section: perfil" />
   </component>
   <component name="WindowStateProjectService">
     <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1606078100495">
@@ -153,10 +190,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606078088499" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606085976231">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606521773091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606085976231" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606521773091" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606085952489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

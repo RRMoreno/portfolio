@@ -95,6 +95,11 @@ a {
   background-color: #d14e16 !important;
   border-color: #d14e16 !important; }
 
+.btn-outline-primary {
+  margin: 1rem;
+  color: #d14e16;
+  border-color: #d14e16; }
+
 .main-timeline {
   font-family: 'Roboto', sans-serif;
   position: relative;
