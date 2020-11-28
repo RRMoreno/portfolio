@@ -254,6 +254,14 @@ a {
 .main-timeline .timeline:nth-child(4n+3) .timeline-year:after {
   background: linear-gradient(to right bottom, #5b2300 49%, transparent 50%); }
 
+label i {
+  color: #d2723f;
+  margin-right: 5px; }
+
+li i {
+  color: #d2723f;
+  margin-right: 5px; }
+
 @media screen and (max-width: 767px) {
   .main-timeline:before {
     left: 17px;
@@ -304,10 +312,6 @@ a {
 
 .sectionContact {
   padding-top: 2rem; }
-
-label i {
-  color: #d2723f;
-  margin-right: 5px; }
 
 .bg-primary {
   background-color: #212529 !important; }
