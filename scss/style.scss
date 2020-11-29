@@ -275,6 +275,10 @@ li {
   }
 }
 
+.sectionContact{
+  justify-content: center;
+}
+
 @media screen and (max-width:767px){
   .main-timeline:before{
     left: 17px;
@@ -332,6 +336,7 @@ li {
 
 .sectionContact{
   padding-top: 2rem;
+
 }
 
 
