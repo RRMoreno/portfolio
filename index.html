@@ -11,14 +11,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
     <title>My Portfolio</title>
     <link href="assets/img/portfolio.png" rel="icon" type="image/x-icon"/>
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body class="no-gutters">
 <nav class="navbar navbar-expand-lg navegacion text-uppercase fixed-top" id="mainNav">
-    <div class="container" id="pagetop">
-        <a class="navbar-brand" href="#pagetop">MyPortfolio</a>
+    <div class="container" >
+        <a class="navbar-brand" onclick="goToId('pagetop')">My Portfolio</a>
         <button aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation"
                 class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
@@ -30,22 +31,22 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                                                     href="#portfolio">Portfolio</a></li>
+                                                     onclick="goToId('portfolio')">Portfolio</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                                                     href="#perfil">Perfil</a></li>
+                                                     onclick="goToId('perfil')">Profile</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                                                     href="#contact">Contacto</a></li>
+                                                     onclick="goToId('contact')">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<header class="banner bg-primary text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
+<header class="banner bg-primary text-white text-center" id="pagetop">
+    <div class="container d-flex align-items-center flex-column" >
 
         <img alt="" class=" bannerAvatar mb-5 " src="assets/img/cv.jpg"/>
 
-        <h1 class="bannerHeading text-uppercase mb-0">Roxana Maria Rafols Moreno</h1>
+        <h1 class="bannerHeading text-uppercase mb-0" >Roxana Maria Rafols Moreno</h1>
 
         <div class="divide row">
             <div class="dividelineaLeft"></div>
@@ -122,9 +123,9 @@
     </div>
 
 </section>
-<section class="container page-section section">
+<section class="container page-section section" id="perfil">
     <div class="container d-flex align-items-center flex-column">
-        <h2>PERFIL</h2>
+        <h2>PROFILE</h2>
         <div class="dividesections row">
             <div class="dividelineaLeft"></div>
             <div><i aria-hidden="true" class="fa fa-star fa-2x"></i></div>
@@ -199,7 +200,7 @@
         </div>
     </div>
 </section>
-<section class="container page-section section">
+<section class="container page-section section" id="contact">
     <div class="container d-flex align-items-center flex-column">
         <h2>Contact</h2>
         <div class="dividesections row">
@@ -212,31 +213,31 @@
         <div class="col-md-6">
             <div class="row ">
                 <div class="form-group col-md-6">
-                    <label for="name1"><i aria-hidden="true" class="fa fa-user fa-lg"></i>Nombre(s)</label>
-                    <input class="form-control" id="name1" placeholder="Nombre" required type="text">
+                    <label for="name1"><i aria-hidden="true" class="fa fa-user fa-lg"></i>Name</label>
+                    <input class="form-control" id="name1" placeholder="Name" required type="text">
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="apellido"><i aria-hidden="true" class="fa fa-user fa-lg"></i>Apellidos</label>
-                    <input class="form-control" id="apellido" placeholder="Apellido" type="text">
+                    <label for="apellido"><i aria-hidden="true" class="fa fa-user fa-lg"></i>Last Name</label>
+                    <input class="form-control" id="apellido" placeholder="Last Name" type="text">
                 </div>
             </div>
             <div class="form-group">
-                <label for="mail"><i aria-hidden="true" class="fa fa-envelope fa-lg"></i>Correo</label>
+                <label for="mail"><i aria-hidden="true" class="fa fa-envelope fa-lg"></i>E-mail</label>
                 <input class="form-control" id="mail" placeholder="ejemplo@correo.uy" required type="email">
             </div>
             <div class="form-group">
                 <label for="phone"><i aria-hidden="true"
-                                      class="fa fa-phone-square fa-lg"></i>Teléfono</label>
+                                      class="fa fa-phone-square fa-lg"></i>Phone</label>
                 <input class="form-control" id="phone" placeholder="099 999999" required type="tel">
                 <!--solo puede admitir numeros-->
             </div>
             <div>
-                <label for="comments2"><i aria-hidden="true" class="fa fa-pencil-square-o fa-lg"></i>Comentarios</label>
-                <textarea class="form-control comments" id="comments2" placeholder="Escriba sus comentarios aqui"
+                <label for="comments2"><i aria-hidden="true" class="fa fa-pencil-square-o fa-lg"></i>Comments</label>
+                <textarea class="form-control comments" id="comments2" placeholder="Write your comments here :) "
                           type="number"></textarea>
             </div>
             <button class="btn btn-outline-primary" data-target="#enviarModal" data-toggle="modal" type="submit">
-                Enviar
+                Sent
             </button>
 
             <!-- ventana que aparece hasta que los campos requeridos estan llenos correctamente,--- esto puede cambiar-->
