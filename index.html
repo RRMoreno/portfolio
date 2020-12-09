@@ -18,7 +18,7 @@
 </head>
 <body class="no-gutters">
 <nav class="navbar navbar-expand-lg navegacion text-uppercase fixed-top" id="mainNav">
-    <div class="container" >
+    <div class="container">
         <a class="navbar-brand" onclick="goToId('pagetop')">My Portfolio</a>
         <button aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation"
@@ -42,11 +42,11 @@
 </nav>
 
 <header class="banner bg-primary text-white text-center" id="pagetop">
-    <div class="container d-flex align-items-center flex-column" >
+    <div class="container d-flex align-items-center flex-column">
 
         <img alt="" class=" bannerAvatar mb-5 " src="assets/img/cv.jpg"/>
 
-        <h1 class="bannerHeading text-uppercase mb-0" >Roxana Maria Rafols Moreno</h1>
+        <h1 class="bannerHeading text-uppercase mb-0">Roxana Maria Rafols Moreno</h1>
 
         <div class="divide row">
             <div class="dividelineaLeft"></div>
@@ -211,34 +211,37 @@
     </div>
     <div class="row sectionContact ">
         <div class="col-md-6">
-            <div class="row ">
-                <div class="form-group col-md-6">
-                    <label for="name1"><i aria-hidden="true" class="fa fa-user fa-lg"></i>Name</label>
-                    <input class="form-control" id="name1" placeholder="Name" required type="text">
+            <form action="https://formsubmit.co/roxanarafols94@gmail.com" method="POST">
+                <div class="row ">
+                    <div class="form-group col-md-6">
+                        <label for="name1"><i aria-hidden="true" class="fa fa-user fa-lg"></i>Name</label>
+                        <input class="form-control" name="name" id="name1" placeholder="Name" required type="text">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="apellido"><i aria-hidden="true" class="fa fa-user fa-lg"></i>Last Name</label>
+                        <input class="form-control" name="lastName" id="apellido" placeholder="Last Name" type="text">
+                    </div>
                 </div>
-                <div class="form-group col-md-6">
-                    <label for="apellido"><i aria-hidden="true" class="fa fa-user fa-lg"></i>Last Name</label>
-                    <input class="form-control" id="apellido" placeholder="Last Name" type="text">
+                <div class="form-group">
+                    <label for="mail"><i aria-hidden="true" class="fa fa-envelope fa-lg"></i>E-mail</label>
+                    <input class="form-control" name="email" id="mail" placeholder="ejemplo@correo.uy" required type="email">
                 </div>
-            </div>
-            <div class="form-group">
-                <label for="mail"><i aria-hidden="true" class="fa fa-envelope fa-lg"></i>E-mail</label>
-                <input class="form-control" id="mail" placeholder="ejemplo@correo.uy" required type="email">
-            </div>
-            <div class="form-group">
-                <label for="phone"><i aria-hidden="true"
-                                      class="fa fa-phone-square fa-lg"></i>Phone</label>
-                <input class="form-control" id="phone" placeholder="099 999999" required type="tel">
-                <!--solo puede admitir numeros-->
-            </div>
-            <div>
-                <label for="comments2"><i aria-hidden="true" class="fa fa-pencil-square-o fa-lg"></i>Comments</label>
-                <textarea class="form-control comments" id="comments2" placeholder="Write your comments here :) "
-                          type="number"></textarea>
-            </div>
-            <button class="btn btn-outline-primary" data-target="#enviarModal" data-toggle="modal" type="submit">
-                Sent
-            </button>
+                <div class="form-group">
+                    <label for="phone"><i aria-hidden="true"
+                                          class="fa fa-phone-square fa-lg"></i>Phone</label>
+                    <input class="form-control"  name="phone" id="phone" placeholder="099 999999" required type="tel">
+                    <!--solo puede admitir numeros-->
+                </div>
+                <div>
+                    <label for="comments2"><i aria-hidden="true"
+                                              class="fa fa-pencil-square-o fa-lg"></i>Comments</label>
+                    <textarea class="form-control comments" name="comments" id="comments2"
+                              placeholder="Write your comments here :)"></textarea>
+                </div>
+                <button class="btn btn-outline-primary" data-target="#enviarModal" data-toggle="modal" type="submit">
+                    Sent
+                </button>
+            </form>
 
             <!-- ventana que aparece hasta que los campos requeridos estan llenos correctamente,--- esto puede cambiar-->
             <div aria-hidden="true" class="modal fade" id="enviarModal" role="dialog" tabindex="-1">

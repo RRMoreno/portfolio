@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="214c32be-bd2d-45c1-909b-aa8038b6871b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -94,7 +93,7 @@
       <workItem from="1606075921399" duration="9611000" />
       <workItem from="1606519930180" duration="3834000" />
       <workItem from="1606690514068" duration="1350000" />
-      <workItem from="1607469719266" duration="2189000" />
+      <workItem from="1607469719266" duration="2539000" />
     </task>
     <task id="LOCAL-00001" summary="wip">
       <created>1606076121877</created>
@@ -152,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606691003011</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="modificando idioma y scroll">
+      <created>1607471950280</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607471950280</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +184,8 @@
     <MESSAGE value="modificando section: perfil" />
     <MESSAGE value="modificando section: contacto" />
     <MESSAGE value="modificado section contact: centrado" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificado section contact: centrado" />
+    <MESSAGE value="modificando idioma y scroll" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificando idioma y scroll" />
   </component>
   <component name="WindowStateProjectService">
     <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1606078100495">
@@ -217,10 +224,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606078088499" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606691255453">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607471955115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606691255453" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607471955115" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606085952489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
