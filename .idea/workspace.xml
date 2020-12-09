@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="214c32be-bd2d-45c1-909b-aa8038b6871b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,7 @@
       <workItem from="1606075921399" duration="9611000" />
       <workItem from="1606519930180" duration="3834000" />
       <workItem from="1606690514068" duration="1350000" />
-      <workItem from="1607469719266" duration="5149000" />
+      <workItem from="1607469719266" duration="5359000" />
     </task>
     <task id="LOCAL-00001" summary="wip">
       <created>1606076121877</created>
@@ -181,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607472710752</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="footer">
+      <created>1607474899028</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607474899028</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +216,8 @@
     <MESSAGE value="enviar formulario" />
     <MESSAGE value="enviar formulario1" />
     <MESSAGE value="enviar formulario2" />
-    <option name="LAST_COMMIT_MESSAGE" value="enviar formulario2" />
+    <MESSAGE value="footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1606078100495">
@@ -250,10 +256,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606078088499" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607472712919">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607474901210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607472712919" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607474901210" />
     <state x="777" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607473485266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
