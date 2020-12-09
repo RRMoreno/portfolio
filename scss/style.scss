@@ -1,3 +1,6 @@
+$principalColor: #d2723f;
+
+
 a {
   color: ghostwhite;
 }
@@ -257,26 +260,83 @@ a {
 .main-timeline .timeline:nth-child(4n+2) .timeline-year {background:linear-gradient(to bottom,#d14e16, #5b2300);}
 .main-timeline .timeline:nth-child(4n+2) .timeline-year:after{background:linear-gradient(to right bottom, #d14e16 49%, transparent 50%);}
 .main-timeline .timeline:nth-child(4n+3) .timeline-content:before,
-.main-timeline .timeline:nth-child(4n+3) .timeline-icon {background:linear-gradient(to bottom,#5b2300 , #d2723f);}
-.main-timeline .timeline:nth-child(4n+3) .timeline-year {background:linear-gradient(to bottom,#5b2300 , #d2723f);}
+.main-timeline .timeline:nth-child(4n+3) .timeline-icon {background:linear-gradient(to bottom,#5b2300 , $principalColor);}
+.main-timeline .timeline:nth-child(4n+3) .timeline-year {background:linear-gradient(to bottom,#5b2300 , $principalColor);}
 .main-timeline .timeline:nth-child(4n+3) .timeline-year:after{background:linear-gradient(to right bottom, #5b2300 49%, transparent 50%);}
 
 label{
   i{
-    color: #d2723f;
+    color: $principalColor;
     margin-right: 5px;
   }
 }
 
 li {
   i{
-    color: #d2723f;
+    color: $principalColor;
     margin-right: 5px;
   }
 }
 
 .sectionContact{
   justify-content: center;
+}
+
+#footer {
+  background: #f7f8f9;
+  color: #45505b;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+#footer p {
+  font-size: 15px;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links {
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: $principalColor;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  background: linear-gradient(to left,#d14e16, #5b2300);
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+
+#footer .credits {
+  font-size: 13px;
 }
 
 @media screen and (max-width:767px){
