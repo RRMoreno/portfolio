@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="214c32be-bd2d-45c1-909b-aa8038b6871b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +100,7 @@
       <workItem from="1608076297142" duration="612000" />
       <workItem from="1608809100200" duration="95000" />
       <workItem from="1609689675764" duration="216000" />
-      <workItem from="1614257054146" duration="212000" />
+      <workItem from="1614257054146" duration="675000" />
     </task>
     <task id="LOCAL-00001" summary="wip">
       <created>1606076121877</created>
@@ -208,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614257151062</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Modificando imgs de proyectos">
+      <created>1614257294259</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1614257294259</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +247,7 @@
     <MESSAGE value="footer" />
     <MESSAGE value="Nuevo proyecto agregado" />
     <MESSAGE value="Agragado nuevo link a proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agragado nuevo link a proyecto" />
+    <MESSAGE value="Modificando imgs de proyectos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificando imgs de proyectos" />
   </component>
 </project>
